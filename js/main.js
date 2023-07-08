@@ -16,7 +16,7 @@ changeFontBtn.addEventListener('click' ,function() {
 });
 
 
-/* boton modo oscuro*/
+// boton modo oscuro
 const bdark = document.querySelector('#bdark');
 const body = document.querySelector('body');
 
