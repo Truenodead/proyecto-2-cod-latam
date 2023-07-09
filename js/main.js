@@ -20,6 +20,8 @@ changeFontBtn.addEventListener('click' ,function() {
 const bdark = document.querySelector('#bdark');
 const body = document.querySelector('body');
 
+load();
+
 bdark.addEventListener('click', e =>{
     body.classList.toggle('darkmode');
     store(body.classList.contains('darkmode'))
@@ -36,13 +38,13 @@ function load( ){
 }
 
 function store(value){
-    localStorage.setItem('darkmode', value)
+    localStorage.setItem('darkmode', value);
 };
 
 //DOM modificacion de parrafos en HTML 
 const contenido = document.querySelector('p.primero');
-contenido.innerHTML = "<p>Excelente desenvolvimiento en Trabajo en equipo impulsando el crecimiento del mismo. Manejo de niveles de estrés altos, experiencia en negociaciones de ventas y soluciones de conflictos. Manejo de computación avanzado. Aprendizaje rápido para nuevos rubros.</p>";
+contenido.innerHTML = "<p> Soy abogado graduado en la <strong>Universidad Rafael Belloso Chacin</strong>. Cuento con una excelente actitud para aprender y enfrentarme a nuevos retos y cambios tanto en el ambito laboral como en lo personal. Me he desempañado exitosamente en el área de ventas y ahora estoy preparado para el mundo del  desarrollo web ampliando las posibilidades de obtener mayores oportunidades laborales, dispuesto a asumir nuevos retos. </p>";
 
 const hablemos = document.querySelector('p.segundo');
-hablemos.innerHTML = "<p>los gatitos son lo mejor</p>";
+hablemos.innerHTML = "<p>Gracias a codigo pa´lante me atrevi a incursionar en el area de desarrollo web, manejando ya lenguajes como HTML, CSS Y JAVASCRIPT y actualmente aprendiendo el directorio REACT desde la plataforma Udemy. </p>";
 

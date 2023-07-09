@@ -13,8 +13,8 @@
 body{
         
     
+    font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Alegreya', serif;
     
     font-size: 18px;
     line-height: 1.2;
@@ -32,6 +32,7 @@ body{
     h1 {
  font-size: 36px;
  text-align: center;
+ /*padding-left: 50px;*/
 }
 
 
@@ -41,6 +42,8 @@ body{
     
     p { margin: 16px 0;
         padding: 20px;
+        justify-content: center;
+        text-align: justify;
     
     }
     
@@ -201,12 +204,11 @@ body{
             footer {
                 background-color: #c44536;
                 display: flex;
-                justify-content: center;
                 align-items: center;
                 text-align: center;
                 height: 90px;
                 width: 110vh;
-                              
+                justify-content: space-between;               
                 
             }
            #change-font {
@@ -216,10 +218,16 @@ body{
             padding: 5px;
             border: none;
             background: transparent;
-
+            text-align: right;
+            justify-content: space-between;
+            
+            
            }
             .latam { 
                 color: #fbfbfb; 
+                justify-content: center;
+                padding-left: 900px;
+                
                 }
             
             li.menu-item:hover,
@@ -270,8 +278,9 @@ body{
                 }
             
                 body.change-font {
-                    font-family: 'Alegreya', serif;
                     font-family: 'Roboto', sans-serif;
+                    font-family: 'Inter', sans-serif;
+                    
                 }
             
                 body.darkmode{
