@@ -219,7 +219,7 @@ body{
                 align-items: center;
                 text-align: center;
                 height: 90px;
-                width: 100%;
+                width: 110vh;
                 
                 
                 
@@ -266,7 +266,11 @@ body{
                     ul#contact-links li {
                         margin: 32px;
                     }
-            
+                    footer {
+                        height: 90px;
+                        width: 100%;
+
+                    }
             
                 }
             
